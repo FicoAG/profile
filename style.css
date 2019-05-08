@@ -1,0 +1,109 @@
+/* style.css */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f3f3f3;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Condensed', sans-serif
+}
+
+
+h1 {
+  color: #113d52;
+  font-weight: normal;
+  font-size: 2.5em;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: #424242;
+  font-weight: lighter;
+  font-size: 1.3em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: grey;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  margin: 24px auto;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  margin: 10px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.fab {
+   color: #113d52;
+}
+
+.button {
+  background-color: #113d52;
+  color: white;
+  padding: 16px 8px;
+  margin: 24px auto;
+  display: block;
+  width: 240px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.button:hover {
+  background-color: #025d75;
+  color: white;
+  padding: 16px 8px;
+  margin: 24px auto;
+  display: block;
+  width: 240px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+#profile-pic {
+  width: 220px;
+  border-radius: 50%
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
